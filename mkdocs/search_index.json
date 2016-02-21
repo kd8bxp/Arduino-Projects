@@ -1,0 +1,84 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "Welcome to Light Saber\n\n\nI Have no idea what Mark Down Documents are, but I need to learn\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.\n\n\n\nThis is interesting\n\n\nNever thought about it but it is interesting\n\n\n\nKD8BXP Made This", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#welcome-to-light-saber", 
+            "text": "I Have no idea what Mark Down Documents are, but I need to learn", 
+            "title": "Welcome to Light Saber"
+        }, 
+        {
+            "location": "/#commands", 
+            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.", 
+            "title": "Commands"
+        }, 
+        {
+            "location": "/#project-layout", 
+            "text": "mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
+            "title": "Project layout"
+        }, 
+        {
+            "location": "/#this-is-interesting", 
+            "text": "Never thought about it but it is interesting", 
+            "title": "This is interesting"
+        }, 
+        {
+            "location": "/#kd8bxp-made-this", 
+            "text": "", 
+            "title": "KD8BXP Made This"
+        }, 
+        {
+            "location": "/readme/", 
+            "text": "Chatter Bot\n\n\nInstallation\n\n\nSimple fun chatter bot. \n1) Head from a Wowwee Tri-bot\n2) Catalex Uart MP3 player \n3) Arduino UNO or the like\n4) amplified speaker for the MP3 player\n\n\nFrom the Tri-Bot Head, purple wire is connected to 3.3v\nusing a ground wire I tested the other wires to figure out which does what.\nI am only using the center mouth led, and the 2 eye leds in this project.\nThere are also 2 ear leds, a white led (headlamp), and 2 more mouth leds.\nThere is a motor that will pop the headlamp and ears out.\nThis motor will also bring them all back into the head. \n\n\nYou need to find some jokes or some random stuff for your chat bot to just\nmindless say.  For mine I found some Star Wars jokes. Used a Text to Speech program, I made\na WAV file, and converted that file to a MP3. \nThe MP3 player will play the 1st \"song\" it finds and stops. The mouth leds are not\nany way synchronized to the sound, it just flashes the mouth.\n\n\nThings To Do\n\n\nadd other mouth LEDs.\nmake it play more than one MP3 file or repeat the MP3 over and over again.\n\n\nUsage\n\n\nTODO: Write usage instructions\n\n\nContributing\n\n\n\n\nFork it!\n\n\nCreate your feature branch: \ngit checkout -b my-new-feature\n\n\nCommit your changes: \ngit commit -am 'Add some feature'\n\n\nPush to the branch: \ngit push origin my-new-feature\n\n\nSubmit a pull request\n\n\n\n\nCredits\n\n\nLeRoy Miller (2015) and Catalex (unknown data)\nmost of the software is for the mp3 and based off the Catalex sketches.\n\n\nLicense\n\n\nThis program is free software: you can redistribute it and/or modify\n    it under the terms of the GNU General Public License as published by\n    the Free Software Foundation, either version 3 of the License, or\n    (at your option) any later version.\n\n\nThis program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License\nalong with this program.  If not, see \nhttp://www.gnu.org/licenses", 
+            "title": "Readme"
+        }, 
+        {
+            "location": "/readme/#chatter-bot", 
+            "text": "", 
+            "title": "Chatter Bot"
+        }, 
+        {
+            "location": "/readme/#installation", 
+            "text": "Simple fun chatter bot. \n1) Head from a Wowwee Tri-bot\n2) Catalex Uart MP3 player \n3) Arduino UNO or the like\n4) amplified speaker for the MP3 player  From the Tri-Bot Head, purple wire is connected to 3.3v\nusing a ground wire I tested the other wires to figure out which does what.\nI am only using the center mouth led, and the 2 eye leds in this project.\nThere are also 2 ear leds, a white led (headlamp), and 2 more mouth leds.\nThere is a motor that will pop the headlamp and ears out.\nThis motor will also bring them all back into the head.   You need to find some jokes or some random stuff for your chat bot to just\nmindless say.  For mine I found some Star Wars jokes. Used a Text to Speech program, I made\na WAV file, and converted that file to a MP3. \nThe MP3 player will play the 1st \"song\" it finds and stops. The mouth leds are not\nany way synchronized to the sound, it just flashes the mouth.", 
+            "title": "Installation"
+        }, 
+        {
+            "location": "/readme/#things-to-do", 
+            "text": "add other mouth LEDs.\nmake it play more than one MP3 file or repeat the MP3 over and over again.", 
+            "title": "Things To Do"
+        }, 
+        {
+            "location": "/readme/#usage", 
+            "text": "TODO: Write usage instructions", 
+            "title": "Usage"
+        }, 
+        {
+            "location": "/readme/#contributing", 
+            "text": "Fork it!  Create your feature branch:  git checkout -b my-new-feature  Commit your changes:  git commit -am 'Add some feature'  Push to the branch:  git push origin my-new-feature  Submit a pull request", 
+            "title": "Contributing"
+        }, 
+        {
+            "location": "/readme/#credits", 
+            "text": "LeRoy Miller (2015) and Catalex (unknown data)\nmost of the software is for the mp3 and based off the Catalex sketches.", 
+            "title": "Credits"
+        }, 
+        {
+            "location": "/readme/#license", 
+            "text": "This program is free software: you can redistribute it and/or modify\n    it under the terms of the GNU General Public License as published by\n    the Free Software Foundation, either version 3 of the License, or\n    (at your option) any later version.  This program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License\nalong with this program.  If not, see  http://www.gnu.org/licenses", 
+            "title": "License"
+        }, 
+        {
+            "location": "/about/", 
+            "text": "301 Moved Permanently\n\n\n*301 Moved Permanently", 
+            "title": "About"
+        }, 
+        {
+            "location": "/about/#301-moved-permanently", 
+            "text": "*301 Moved Permanently", 
+            "title": "301 Moved Permanently"
+        }
+    ]
+}
