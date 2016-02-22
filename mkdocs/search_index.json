@@ -2,17 +2,17 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Welcome to Light Saber\n\n\nI Have no idea what Mark Down Documents are, but I need to learn\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.\n\n\n\nThis is interesting\n\n\nNever thought about it but it is interesting\n\n\n\nKD8BXP Made This", 
+            "text": "Welcome to Light Saber\n\n\n\nI have no idea what markdown Documents are, but I need to learn.\nI am using this spot to learn more about markdown and \nmkdocs\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\ndifferent bullets - Yup Different.\n\n\nAre you Sure? - Yup I think they are.\n\n\nI don't know - Me either.\n\n\n\n\n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.\n\n\n\nAnd now for the pictures\n\n\n!\n\n\n\n\n\nCheckout \nebay\n\n\nKD8BXP Made This", 
             "title": "Home"
         }, 
         {
             "location": "/#welcome-to-light-saber", 
-            "text": "I Have no idea what Mark Down Documents are, but I need to learn", 
+            "text": "I have no idea what markdown Documents are, but I need to learn.\nI am using this spot to learn more about markdown and  mkdocs", 
             "title": "Welcome to Light Saber"
         }, 
         {
             "location": "/#commands", 
-            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.", 
+            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.   mkdocs help  - Print this help message.   different bullets - Yup Different.  Are you Sure? - Yup I think they are.  I don't know - Me either.", 
             "title": "Commands"
         }, 
         {
@@ -21,9 +21,9 @@
             "title": "Project layout"
         }, 
         {
-            "location": "/#this-is-interesting", 
-            "text": "Never thought about it but it is interesting", 
-            "title": "This is interesting"
+            "location": "/#and-now-for-the-pictures", 
+            "text": "!   Checkout  ebay", 
+            "title": "And now for the pictures"
         }, 
         {
             "location": "/#kd8bxp-made-this", 
