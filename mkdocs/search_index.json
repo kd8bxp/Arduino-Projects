@@ -2,27 +2,27 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Welcome to Light Saber\n\n\n\nI have no idea what markdown Documents are, but I need to learn.\nI am using this spot to learn more about markdown and \nmkdocs\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\ndifferent bullets - Yup Different.\n\n\nAre you Sure? - Yup I think they are.\n\n\nI don't know - Me either.\n\n\n\n\n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.\n\n\n\nAnd now for the pictures\n\n\n!\n\n\n\n\n\nCheckout \nebay\n\n\nKD8BXP Made This", 
+            "text": "Welcome to Some of my Arduino Projects\n\n\nThis page is to kind of show what can be done with very simple \"mark-down\" langage. \n\n\nSo here is a picture....\n\n\n\nI have learned enough about mardown to make some simple sites, with pictures, links, etc. How I learned was from markdown and \nmkdocs\n\n\nCommands\n\n\nThese are some common things that you need to know if you use mkdocs.\nWhich makes life easy!\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\nmkdocs gh-deploy --clean\n - deploy documents to github.\n\n\n\n\nYou can even do a different style of bullets:\n\n\n1. Different Style of Bullets.\n2. Are you Sure? - Yup I think they are.\n3. I don't know - Me either.\n\n\n\nProject layout\n\n\nThis is some more information about mkdocs and how it's simple to add and layout new files.\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.\n\n\n\nAnd now for the pictures\n\n\nAnd just to prove that pictures are easy to add.....\n\n\n!\n\n\n\n\n\nCheckout \nebay\n\n\nKD8BXP Made This", 
             "title": "Home"
         }, 
         {
-            "location": "/#welcome-to-light-saber", 
-            "text": "I have no idea what markdown Documents are, but I need to learn.\nI am using this spot to learn more about markdown and  mkdocs", 
-            "title": "Welcome to Light Saber"
+            "location": "/#welcome-to-some-of-my-arduino-projects", 
+            "text": "This page is to kind of show what can be done with very simple \"mark-down\" langage.   So here is a picture....  I have learned enough about mardown to make some simple sites, with pictures, links, etc. How I learned was from markdown and  mkdocs", 
+            "title": "Welcome to Some of my Arduino Projects"
         }, 
         {
             "location": "/#commands", 
-            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.   mkdocs help  - Print this help message.   different bullets - Yup Different.  Are you Sure? - Yup I think they are.  I don't know - Me either.", 
+            "text": "These are some common things that you need to know if you use mkdocs.\nWhich makes life easy!   mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.  mkdocs gh-deploy --clean  - deploy documents to github.   You can even do a different style of bullets:  1. Different Style of Bullets.\n2. Are you Sure? - Yup I think they are.\n3. I don't know - Me either.", 
             "title": "Commands"
         }, 
         {
             "location": "/#project-layout", 
-            "text": "mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
+            "text": "This is some more information about mkdocs and how it's simple to add and layout new files.  mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
             "title": "Project layout"
         }, 
         {
             "location": "/#and-now-for-the-pictures", 
-            "text": "!   Checkout  ebay", 
+            "text": "And just to prove that pictures are easy to add.....  !   Checkout  ebay", 
             "title": "And now for the pictures"
         }, 
         {
