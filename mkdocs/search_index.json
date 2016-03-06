@@ -76,14 +76,34 @@
             "title": "License"
         }, 
         {
-            "location": "/about/", 
-            "text": "301 Moved Permanently\n\n\n*301 Moved Permanently", 
-            "title": "About"
+            "location": "/rfid-rc522/", 
+            "text": "", 
+            "title": "Mifare RFID reader RC522"
         }, 
         {
-            "location": "/about/#301-moved-permanently", 
-            "text": "*301 Moved Permanently", 
-            "title": "301 Moved Permanently"
+            "location": "/fs1000a/", 
+            "text": "FS1000a 315/433mhz RX/TX pair\n\n\nFeb 27, 2014\nInitial tests of FS1000a 315mhz RX/TX pair:\nThis \ndocument seems\n to be relevant to these transmit and receivers.\n\n\nAnd the library can be found \nhere\n\n\nThe library contains the sketches found on the page, with the exception that they don\u2019t set the\nRX or TX pin\nvw_set_tx_pin(3);\nvw_set_rx_pin(3);\nAlso the receiver sketch seems to be a bit different - the example in the library prints out HEX\ncodes.\nfor the most part these are very simple to use - one Arduino is setup to send information, the\nother is setup to receive that information - and do something with it.\nModulation type is ASK - or Amplitude Shift Keying - This type of modulation is like AM radio for\ndata So it has some of the same weaknesses and strengths of AM. \nFor more information\n\n\nFinding a distance for them was a little harder, but as near as I can figure\n40 meters or 131 feet indoors, 100 meters or 328 feet in the open.\nI tested at about 60 feet inside and it worked without a problem.\nRange seems to be dependant on how much voltage you put on the transmitter - from what I\nfound the TX board can handle between 3 to 12v - with 5v being normal - I don\u2019t know if I trust\n12v in this figure, as I only found a couple of sites that said it, and the TX boards were not the\nsame board we have. Better to be safe then sorry and go with 5v.\nLike finding a range for these, finding a speed wasn\u2019t as easy as it should be - most sites say\nbetween 4800 and 9600 baud work well. A couple of sites say they can go faster, but faster may cause unreliable data (or no data at all). One site even said that speed was dependant\non distance (I don\u2019t think that is right given the type of modulation this uses, but maybe). The\nsites that have 480 to 9600 baud listed say that it\u2019s a reliable low speed for general use such as\nreading sensor data.\nImpressions of this it would make a good low power data sender for a remote sensor, only takes\nup one pin, and is really simple to use.\nOther information (But not sure if the RX/TX board are the same as what we have):\n\nSpark Fun\n\n\nSeeed Studio\n - Pretty Sure this the board I have\n\nAnother Seeed Studio\n\n\nUpdate: Feb 28 - Maybe this is not as easy as I first thought, the library seems to have some\nquirky issues - 1st it seems to want to send a \u201cconst char *variable\u201d, I\u2019m not really sure what that\nis. (Found this out by trying to send a tempature variable floating point to it)\nand the 2nd thing I found is that it doesn\u2019t work on some of the lesser know Arduino like boards.\n(have been trying for the past 2 hours to get the library to work with my Squarewear, wearable\ntemperature sensor, only to find it really doesn\u2019t like that hardware at all) Admittedly the\nsquarewear is not an Arduino, it is closely related to one.\nPlans this weekend, try some alternative methods of getting these RF devices to work.\n\n\nKD8BXP Made This", 
+            "title": "FS1000a 433Mhz Transmitters"
+        }, 
+        {
+            "location": "/fs1000a/#fs1000a-315433mhz-rxtx-pair", 
+            "text": "Feb 27, 2014\nInitial tests of FS1000a 315mhz RX/TX pair:\nThis  document seems  to be relevant to these transmit and receivers.  And the library can be found  here  The library contains the sketches found on the page, with the exception that they don\u2019t set the\nRX or TX pin\nvw_set_tx_pin(3);\nvw_set_rx_pin(3);\nAlso the receiver sketch seems to be a bit different - the example in the library prints out HEX\ncodes.\nfor the most part these are very simple to use - one Arduino is setup to send information, the\nother is setup to receive that information - and do something with it.\nModulation type is ASK - or Amplitude Shift Keying - This type of modulation is like AM radio for\ndata So it has some of the same weaknesses and strengths of AM.  For more information  Finding a distance for them was a little harder, but as near as I can figure\n40 meters or 131 feet indoors, 100 meters or 328 feet in the open.\nI tested at about 60 feet inside and it worked without a problem.\nRange seems to be dependant on how much voltage you put on the transmitter - from what I\nfound the TX board can handle between 3 to 12v - with 5v being normal - I don\u2019t know if I trust\n12v in this figure, as I only found a couple of sites that said it, and the TX boards were not the\nsame board we have. Better to be safe then sorry and go with 5v.\nLike finding a range for these, finding a speed wasn\u2019t as easy as it should be - most sites say\nbetween 4800 and 9600 baud work well. A couple of sites say they can go faster, but faster may cause unreliable data (or no data at all). One site even said that speed was dependant\non distance (I don\u2019t think that is right given the type of modulation this uses, but maybe). The\nsites that have 480 to 9600 baud listed say that it\u2019s a reliable low speed for general use such as\nreading sensor data.\nImpressions of this it would make a good low power data sender for a remote sensor, only takes\nup one pin, and is really simple to use.\nOther information (But not sure if the RX/TX board are the same as what we have): Spark Fun  Seeed Studio  - Pretty Sure this the board I have Another Seeed Studio  Update: Feb 28 - Maybe this is not as easy as I first thought, the library seems to have some\nquirky issues - 1st it seems to want to send a \u201cconst char *variable\u201d, I\u2019m not really sure what that\nis. (Found this out by trying to send a tempature variable floating point to it)\nand the 2nd thing I found is that it doesn\u2019t work on some of the lesser know Arduino like boards.\n(have been trying for the past 2 hours to get the library to work with my Squarewear, wearable\ntemperature sensor, only to find it really doesn\u2019t like that hardware at all) Admittedly the\nsquarewear is not an Arduino, it is closely related to one.\nPlans this weekend, try some alternative methods of getting these RF devices to work.", 
+            "title": "FS1000a 315/433mhz RX/TX pair"
+        }, 
+        {
+            "location": "/fs1000a/#kd8bxp-made-this", 
+            "text": "", 
+            "title": "KD8BXP Made This"
+        }, 
+        {
+            "location": "/nrf24l01/", 
+            "text": "", 
+            "title": "NRF24L01 Transceiver Module"
+        }, 
+        {
+            "location": "/sp0-512/", 
+            "text": "", 
+            "title": "SP0-512 Speech Synthesizer"
         }
     ]
 }
