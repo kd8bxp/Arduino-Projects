@@ -77,8 +77,13 @@
         }, 
         {
             "location": "/rfid-rc522/", 
-            "text": "", 
+            "text": "RFID RC-522\n\n\nNOTHING TO SEE YET, but check back soon!", 
             "title": "Mifare RFID reader RC522"
+        }, 
+        {
+            "location": "/rfid-rc522/#rfid-rc-522", 
+            "text": "NOTHING TO SEE YET, but check back soon!", 
+            "title": "RFID RC-522"
         }, 
         {
             "location": "/fs1000a/", 
@@ -97,13 +102,23 @@
         }, 
         {
             "location": "/nrf24l01/", 
-            "text": "", 
+            "text": "NRF24L01\n\n\nNOTHING TO SEE YET, but check back soon!", 
             "title": "NRF24L01 Transceiver Module"
         }, 
         {
+            "location": "/nrf24l01/#nrf24l01", 
+            "text": "NOTHING TO SEE YET, but check back soon!", 
+            "title": "NRF24L01"
+        }, 
+        {
             "location": "/sp0-512/", 
-            "text": "", 
+            "text": "SP0-512 Speech Synthsizer\n\n\nNOTHING TO SEE YET, but check back soon!", 
             "title": "SP0-512 Speech Synthesizer"
+        }, 
+        {
+            "location": "/sp0-512/#sp0-512-speech-synthsizer", 
+            "text": "NOTHING TO SEE YET, but check back soon!", 
+            "title": "SP0-512 Speech Synthsizer"
         }
     ]
 }
