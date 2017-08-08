@@ -1,234 +1,348 @@
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  
-  
-  <title>Arduino Projects</title>
-  
-
-  <link rel="shortcut icon" href="./img/favicon.ico">
-
-  
-  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
-
-  <link rel="stylesheet" href="./css/theme.css" type="text/css" />
-  <link rel="stylesheet" href="./css/theme_extra.css" type="text/css" />
-  <link rel="stylesheet" href="./css/highlight.css">
-
-  
-  <script>
-    // Current page data
-    var mkdocs_page_name = "None";
-    var mkdocs_page_input_path = "index.md";
-    var mkdocs_page_url = "/";
-  </script>
-  
-  <script src="./js/jquery-2.1.1.min.js"></script>
-  <script src="./js/modernizr-2.8.3.min.js"></script>
-  <script type="text/javascript" src="./js/highlight.pack.js"></script>
-  <script src="./js/theme.js"></script> 
-
-  
-</head>
-
-<body class="wy-body-for-nav" role="document">
-
-  <div class="wy-grid-for-nav">
-
-    
-    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
-      <div class="wy-side-nav-search">
-        <a href="." class="icon icon-home"> Arduino Projects</a>
-        <div role="search">
-  <form id ="rtd-search-form" class="wy-form" action="./search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" />
-  </form>
-</div>
-      </div>
-
-      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
-        <ul class="current">
-          
-            <li>
-    <li class="toctree-l1 current">
-        <a class="current" href=".">Home</a>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
-            <ul>
+        
+        
+        <link rel="shortcut icon" href="./img/favicon.ico">
+
+	<title>Arduino Projects</title>
+
+        <link href="./css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="./css/font-awesome-4.5.0.css" rel="stylesheet">
+        <link href="./css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="./css/highlight.css">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        
+    </head>
+
+    <body class="homepage">
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
             
-                <li class="toctree-l3"><a href="#welcome-to-some-of-my-arduino-projects">Welcome to Some of my Arduino Projects</a></li>
-                
-                    <li><a class="toctree-l4" href="#commands">Commands</a></li>
-                
-                    <li><a class="toctree-l4" href="#project-layout">Project layout</a></li>
-                
-                    <li><a class="toctree-l4" href="#and-now-for-the-pictures">And now for the pictures</a></li>
-                
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
             
-                <li class="toctree-l3"><a href="#kd8bxp-made-this">KD8BXP Made This</a></li>
-                
-            
-            </ul>
-        
-    </li>
-<li>
-          
-            <li>
-    <li class="toctree-l1 ">
-        <a class="" href="selfbalancingrobot/">Self Balancing Robot</a>
-        
-    </li>
-<li>
-          
-            <li>
-    <li class="toctree-l1 ">
-        <a class="" href="readme/">Chatter Bot Readme</a>
-        
-    </li>
-<li>
-          
-            <li>
-    <li class="toctree-l1 ">
-        <a class="" href="rfid-rc522/">Mifare RFID reader RC522</a>
-        
-    </li>
-<li>
-          
-            <li>
-    <li class="toctree-l1 ">
-        <a class="" href="fs1000a/">FS1000a 433Mhz Transmitters</a>
-        
-    </li>
-<li>
-          
-            <li>
-    <li class="toctree-l1 ">
-        <a class="" href="nrf24l01/">NRF24L01 Transceiver Module</a>
-        
-    </li>
-<li>
-          
-            <li>
-    <li class="toctree-l1 ">
-        <a class="" href="sp0-512/">SP0-512 Speech Synthesizer</a>
-        
-    </li>
-<li>
-          
-        </ul>
-      </div>
-      &nbsp;
-    </nav>
 
-    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
-
-      
-      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
-        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href=".">Arduino Projects</a>
-      </nav>
-
-      
-      <div class="wy-nav-content">
-        <div class="rst-content">
-          <div role="navigation" aria-label="breadcrumbs navigation">
-  <ul class="wy-breadcrumbs">
-    <li><a href=".">Docs</a> &raquo;</li>
-    
-      
-    
-    <li>Home</li>
-    <li class="wy-breadcrumbs-aside">
-      
-    </li>
-  </ul>
-  <hr/>
-</div>
-          <div role="main">
-            <div class="section">
-              
-                <h1 id="welcome-to-some-of-my-arduino-projects">Welcome to Some of my Arduino Projects</h1>
-<p>This page is to kind of show what can be done with very simple "mark-down" langage. </p>
-<p>So here is a picture....
-<img alt="picture" src="./img/pic1.jpg" /></p>
-<p>I have learned enough about mardown to make some simple sites, with pictures, links, etc. How I learned was from markdown and <a href="http://mkdocs.org">mkdocs</a></p>
-<h2 id="commands">Commands</h2>
-<p>These are some common things that you need to know if you use mkdocs.
-Which makes life easy!</p>
-<ul>
-<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
-<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
-<li><code>mkdocs build</code> - Build the documentation site.</li>
-<li><code>mkdocs help</code> - Print this help message.</li>
-<li><code>mkdocs gh-deploy --clean</code> - deploy documents to github.</li>
-</ul>
-<p>You can even do a different style of bullets:</p>
-<pre><code>1. Different Style of Bullets.
-2. Are you Sure? - Yup I think they are.
-3. I don't know - Me either.
-</code></pre>
-<h2 id="project-layout">Project layout</h2>
-<p>This is some more information about mkdocs and how it's simple to add and layout new files.</p>
-<pre><code>mkdocs.yml    # The configuration file.
-docs/
-    index.md  # The documentation homepage.
-    ...       # Other markdown pages, images and other files.
-</code></pre>
-<h2 id="and-now-for-the-pictures">And now for the pictures</h2>
-<p>And just to prove that pictures are easy to add.....</p>
-<p><img alt="picture" src="./img/pic1.jpg" />!
-<img alt="Picture2" src="./img/pic2.jpg" />
-<img alt="Screenshot" src="./img/Screenshot.png" /></p>
-<p>Checkout <a href="http://www.ebay.com">ebay</a></p>
-<h1 id="kd8bxp-made-this">KD8BXP Made This</h1>
-              
-            </div>
-          </div>
-          <footer>
-  
-    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-      
-        <a href="selfbalancingrobot/" class="btn btn-neutral float-right" title="Self Balancing Robot">Next <span class="icon icon-circle-arrow-right"></span></a>
-      
-      
-    </div>
-  
-
-  <hr/>
-
-  <div role="contentinfo">
-    <!-- Copyright etc -->
-    
-  </div>
-
-  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
-</footer>
-	  
+            <!-- Main title -->
+            <a class="navbar-brand" href=".">Arduino Projects</a>
         </div>
-      </div>
 
-    </section>
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+            
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li class="active">
+                        <a href=".">Home</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tutorials <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="tutorials/blink/blink/">Blink</a>
+</li>
 
-  </div>
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">2W & 4W Robots</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="tutorials/robots/robotstart/">Getting Started</a>
+</li>
 
-<div class="rst-versions" role="note" style="cursor: pointer">
-    <span class="rst-current-version" data-toggle="rst-current-version">
-      
-      
-      
-        <span style="margin-left: 15px"><a href="selfbalancingrobot/" style="color: #fcfcfc">Next &raquo;</a></span>
-      
-    </span>
+        
+    </ul>
+  </li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Arduino</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="projects/arduino/chatterbot/">Chatter Bot</a>
+</li>
+
+        
+            
+<li >
+    <a href="projects/arduino/arduino-project-4x4-keypad-matrix-rotary-encoder/README/">4x4 Keypad Matrix</a>
+</li>
+
+        
+            
+<li >
+    <a href="projects/arduino/arduino-project-arduino-vga-out/README/">Arduino VGA</a>
+</li>
+
+        
+            
+<li >
+    <a href="projects/arduino/arduino-project-bmp180-digital-barometric-pressur/README/">BMP180 Sensor</a>
+</li>
+
+        
+            
+<li >
+    <a href="projects/arduino/arduino-project-fs1000a-433mhz-transmitters/README/">FS1000a 433mhz Transmitters</a>
+</li>
+
+        
+            
+<li >
+    <a href="projects/arduino/arduino-project-hc-05-bluetooth-device/README/">HC-05 Bluetooth</a>
+</li>
+
+        
+            
+<li >
+    <a href="projects/arduino/arduino-project-magnetic-reed-switch-water-sensor/README/">Magnetic Reed Switch Water Sensor</a>
+</li>
+
+        
+            
+<li >
+    <a href="projects/arduino/arduino-project-mifare-rfid-reader-rc522/README/">Mifare RFID reader RC522</a>
+</li>
+
+        
+            
+<li >
+    <a href="projects/arduino/arduino-project-nokia-5110-lcd/README/">Nokia 5110 LCD</a>
+</li>
+
+        
+            
+<li >
+    <a href="projects/arduino/arduino-project-pin-control-over-ethernet-oled-de/README/">Pin Control over Ethernet w/OLED</a>
+</li>
+
+        
+            
+<li >
+    <a href="projects/arduino/arduino-project-skynet-im/README/">Skynet IM</a>
+</li>
+
+        
+            
+<li >
+    <a href="projects/arduino/arduino-project-the-spo-512-speech-synthesizer/README/">SPO-512 Speech Synthesizer</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">ESP8266</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="projects/esp8266/">Temp</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Other Projects</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="projects/other/project-hot-wheels-10-525ghz-radar-gun/README/">Hot Wheels 10.524Ghz Radar Gun</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="herojr/">Hero Jr Robot</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="document/">Document Projects</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="leroy/">About</a>
+                    </li>
+                
+                
+                </ul>
+            
+
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                        <i class="fa fa-search"></i> Search
+                    </a>
+                </li>
+                
+                    <li class="disabled">
+                        <a rel="next" >
+                            <i class="fa fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="tutorials/blink/blink/">
+                            Next <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </li>
+                
+                
+            </ul>
+        </div>
+    </div>
 </div>
 
-</body>
+        <div class="container">
+            
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+    
+        <li class="main active"><a href="#arduino-projects">Arduino Projects</a></li>
+        
+            <li><a href="#support-me">Support Me</a></li>
+        
+            <li><a href="#other-projects">Other Projects</a></li>
+        
+            <li><a href="#credits">Credits</a></li>
+        
+            <li><a href="#license">License</a></li>
+        
+    
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="arduino-projects">Arduino Projects</h1>
+<h2 id="support-me">Support Me</h2>
+<p>If you find this or any of my projects useful or enjoyable please support me.
+Anything I do get goes to buy more parts and make more/better projects.<br />
+<a href="https://www.patreon.com/kd8bxp">Patreon</a><br />
+<a href="https://ko-fi.com/lfmiller">Ko-fi</a>  </p>
+<h2 id="other-projects">Other Projects</h2>
+<p><a href="https://www.youtube.com/channel/UCP6Vh4hfyJF288MTaRAF36w">KD8BXP's Youtube Channel</a><br />
+<a href="https://kd8bxp.blogspot.com/">KD8BXP's Blog</a></p>
+<h2 id="credits">Credits</h2>
+<p>Copyright (c) 2017 LeRoy Miller</p>
+<h2 id="license">License</h2>
+<pre><code>This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see &lt;http://www.gnu.org/licenses&gt;
+</code></pre></div>
+            
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            
+            <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+
+        <script src="./js/jquery-1.10.2.min.js"></script>
+        <script src="./js/bootstrap-3.0.3.min.js"></script>
+        <script src="./js/highlight.pack.js"></script>
+        <script>var base_url = '.';</script>
+        <script data-main="./mkdocs/js/search.js" src="./mkdocs/js/require.js"></script>
+        <script src="./js/base.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            From here you can search these documents. Enter
+                            your search terms below.
+                        </p>
+                        <form role="form">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                            </div>
+                        </form>
+                        <div id="mkdocs-search-results"></div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
 </html>
 
 <!--
 MkDocs version : 0.15.3
-Build Date UTC : 2016-03-06 02:31:37.936665
+Build Date UTC : 2017-08-08 02:02:50.824003
 -->
